@@ -1,0 +1,21 @@
+.kaoyan .itemList {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  padding: 20rpx;
+}
+.kaoyan .itemList .item {
+  margin-top: 20rpx;
+  width: 300rpx;
+  height: 300rpx;
+  color: #FFF;
+  text-align: center;
+  line-height: 300rpx;
+  background-color: #7779CD;
+  border-radius: 30rpx;
+}
+

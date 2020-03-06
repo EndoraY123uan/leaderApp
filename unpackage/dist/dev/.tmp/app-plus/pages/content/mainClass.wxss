@@ -1,0 +1,5 @@
+.mainClass .classContent {
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+

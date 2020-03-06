@@ -1,0 +1,92 @@
+page {
+  background-color: #F0F0F0;
+}
+page .mine {
+  width: 750rpx;
+}
+page .mine .userInfo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  /* padding-left: 50upx; */
+  padding-top: 40rpx;
+  height: 250rpx;
+  background-color: #7779CD;
+  border-bottom-right-radius: 100rpx;
+  border-bottom-left-radius: 100rpx;
+  /* image{
+					width: 150upx;
+					height: 150upx;
+				} */
+}
+page .mine .userInfo .user {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  /* margin-left: 30upx; */
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  width: 100%;
+  height: 150rpx;
+  color: #FFF;
+  /* background-color: #0077AA; */
+}
+page .mine .userInfo .user .userDetail {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  padding-left: 40rpx;
+  width: 450rpx;
+  line-height: 150rpx;
+  /* background-color: #0086B3; */
+}
+page .mine .userInfo .user .userDetail .userName {
+  font-size: 50rpx;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+}
+page .mine .userInfo .user .icon-more {
+  line-height: 150rpx;
+  margin-left: 80rpx;
+  color: #FFF;
+}
+page .mine .myContent {
+  padding: 10rpx;
+}
+page .mine .myContent .more {
+  margin-top: 5rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 20rpx;
+  height: 70rpx;
+  font-size: 36rpx;
+  background-color: #FFF;
+  /* border-bottom: 1px solid @mainColor; */
+}
+page .mine .myContent .more .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  width: 200rpx;
+  line-height: 70rpx;
+  /* background-color: #0EA391; */
+}
+page .mine .myContent .more .item-icon {
+  line-height: 70rpx;
+}
+page .mine .myContent .outLogin {
+  margin-top: 10rpx;
+}
+

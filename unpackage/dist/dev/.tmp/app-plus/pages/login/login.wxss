@@ -1,0 +1,85 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+page .login {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  /*  background: linear-gradient(to bottom right,#0C7BB3,#f2bae8); */
+  /*    background: linear-gradient(to right,#feac5e,#c779d0,#4bc0c8); */
+  /*    background: linear-gradient(to bottom,#8D75DB,#727CF5); */
+  background-color: #727CF5;
+}
+page .login .content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  width: 80%;
+  height: 70%;
+  /*  background-color: #0077AA; */
+}
+page .login .content .title {
+  font-size: 60rpx;
+  font-weight: 400;
+  color: #FFF;
+}
+page .login .content .loginForm {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  width: 100%;
+  height: 60%;
+  /* background-color: #007AFF; */
+}
+page .login .content .loginForm .login-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: 20%;
+  /*   background-color: #0EA391; */
+}
+page .login .content .loginForm .login-group input {
+  width: 90%;
+  color: #FFF;
+  text-align: center;
+  border-bottom: 0.5px solid #FFF;
+}
+page .login .content .loginForm .login-group checkbox-group {
+  color: white;
+  font-size: 40rpx;
+}
+page .login .content .loginForm .login-group .loginBtn {
+  width: 100%;
+}
+

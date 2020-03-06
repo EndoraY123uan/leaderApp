@@ -1,0 +1,256 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+        {
+			"path" : "pages/major/major",
+			"style" : {
+				"navigationBarTitleText":"专业",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"titleNView":{
+						"backgroundColor":"#7779CD",
+						"searchInput":{
+							"borderRadius":"10px",
+							"placeholder":"请输入专业名称",
+							"placeholderColor":"#000"
+						}
+					}
+				}
+			}
+		   
+		},
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+		    	"navigationStyle":"custom"
+		    }
+		},
+		{
+		    "path" : "pages/kaoyan/kaoyan",
+		    "style" : {
+				"navigationBarTitleText":"考研",
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#7779CD",
+						"titleText":"考研",
+						"titleColor":"#FFF" 
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/work/work",
+		    "style" : {
+				"navigationBarTitleText":"就业",
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#7779CD",
+						"titleText":"就业",
+						"titleColor":"#FFF"
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/mine/mine",
+		    "style" : {
+				"navigationBarTitleText":"我的",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"titleNView":{
+						"backgroundColor":"#7779CD",
+						"titleText":"我的",
+						"titleColor":"#FFF"
+					}
+				}
+			}
+		},
+		{
+            "path" : "pages/discuss/discuss",
+            "style" : {
+				"navigationBarTitleText":"讨论",
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#7779CD",
+						"titleText":"讨论",
+						"titleColor":"#FFF"
+					}
+				}
+			}
+        },
+		{
+            "path" : "pages/content/content",
+            "style" : {}
+        },
+		{
+            "path" : "pages/components/components",
+            "style" : {}
+        },
+		{
+			"path":"pages/content/mainClass",
+			"style":{
+				"navigationBarTitleText":"课程信息",
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#7779CD",
+						"titleText":"课程信息",
+						"titleColor":"FFF"
+					}
+				}
+			}
+		},
+		{
+			"path":"pages/content/kaoyanDetail",
+			"style":{
+				"navigationBarTitleText":"考研详情"
+			}
+		},
+		{
+			"path":"pages/content/mainJob",
+			"style":{
+				"navigationBarTitleText":"岗位详情"
+			}
+		},
+		{
+            "path" : "pages/content/kaoyanDetail",
+            "style" : {
+				"navigationBarTitleText":"考研数据"
+			}
+        },
+		{
+			"path":"pages/content/workDetail",
+			"style":{
+				"navigationBarTitleText":"就业数据"
+			}
+		},
+		{
+			"path":"pages/content/newsDetail",
+			"style":{
+				"navigationBarTitleText":"话题详情",
+				"app-plus":{
+					"softinputMode":"adjustResize",
+					"titleNView":{
+						"backgroundColor":"#7779CD",
+						"titleText":"话题详情",
+						"titleColor":"#FFF"
+					}
+				}
+				
+			}
+		},
+		{
+			"path":"pages/content/userDetail",
+			"style":{
+				"navigationBarTitleText":"个人信息"
+			}
+		},
+		{
+			"path":"pages/content/newTopic",
+			"style":{
+				"navigationBarTitleText":"发起话题"
+			}
+		},
+		{
+			"path":"pages/content/draft",
+			"style":{
+				"navigationBarTitleText":"我的草稿"
+			}
+		},
+		{
+			"path":"pages/content/check",
+			"style":{
+				"navigationBarTitleText":"等待审核"
+			}
+		},
+		{
+			"path":"pages/content/success",
+			"style":{
+				"navigationBarTitleText":"发表成功"
+			}
+		},
+		{
+			"path":"pages/content/set",
+			"style":{
+				"navigationBarTitleText":"设置"
+			}
+		},
+		{
+			"path":"pages/content/draftDetail",
+			"style":{
+				"navigationBarTitleText":"草稿详情"
+			}
+		},
+		{
+			"path":"pages/content/checkDetail",
+			"style":{
+				"navigationBarTitleText":"审核详情"
+			}
+		},
+		{
+			"path":"pages/content/successDetail",
+			"style":{
+				"navigationBarTitleText":"话题详情"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle":"white",
+		"app-plus":{
+			"scrollIndicator":"none",
+			"titleNView":{
+				"backgroundColor":"#7779CD",
+				"titleColor":"#FFFDEF"
+			}
+		}
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式（list 的索引项）
+		"list": [{
+				"name": "swiper", //模式名称
+				"path": "./pages/discuss/discuss"//启动页面，必选
+			},
+			{
+				"name": "test",
+				"path": "pages/component/switch/switch"
+			}
+		]
+	},
+	"tabBar":{
+		"color": "#2C2C2C",
+		    "selectedColor": "#594d9c",
+		    "borderStyle": "black",
+		    "backgroundColor": "#ffffff",
+			"fontSize":"12px",
+			"iconWidth":"26px",
+		    "list": [{
+		        "pagePath": "pages/major/major",
+		        "iconPath": "static/tabbar/major_p.png",
+		        "selectedIconPath": "static/tabbar/major.png",
+		        "text": "专业"
+		    }, 
+			{
+		        "pagePath": "pages/kaoyan/kaoyan",
+		        "iconPath": "static/tabbar/postGra_p.png",
+		        "selectedIconPath": "static/tabbar/postGra.png",
+		        "text": "考研"
+		    },
+			{
+		        "pagePath": "pages/work/work",
+		        "iconPath": "static/tabbar/work_p.png",
+		        "selectedIconPath": "static/tabbar/work.png",
+		        "text": "就业"
+		    },
+			{
+		        "pagePath": "pages/discuss/discuss",
+		        "iconPath": "./static/tabbar/discuss_p.png",
+		        "selectedIconPath": "static/tabbar/discuss.png",
+		        "text": "讨论"
+		    },
+			{
+				"pagePath":"pages/mine/mine",
+				"iconPath":"static/tabbar/mine_p.png",
+				"selectedIconPath":"static/tabbar/mine.png",
+				"text":"我的"
+			}]
+	}
+}

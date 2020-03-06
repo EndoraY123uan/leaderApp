@@ -1,0 +1,34 @@
+.major .nav {
+  border-bottom: 1px solid #7779CD;
+}
+.major .nav .search {
+  width: 300px;
+  border-radius: 50%;
+}
+.major .personaInfo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  /* background-color: pink; */
+  font-size: 16px;
+}
+.major .majorControl .control {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0rpx;
+  /* color: #FFF; */
+  /* background-color: @mainColor; */
+  background-color: #FFF;
+}
+.major .majorControl .content .majorDetails {
+  padding: 10px;
+  text-indent: 40px;
+}
+.major .majorControl .content .majorClass uni-list-item {
+  /* text-indent: 20px; */
+}
+

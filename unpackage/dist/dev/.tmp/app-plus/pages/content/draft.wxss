@@ -1,0 +1,36 @@
+.draft.data-v-ecf86508 {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  background-color: #F0F0F0;
+}
+.draft .item-list .item.data-v-ecf86508 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 10rpx;
+  padding: 10rpx;
+  height: 180rpx;
+  background-color: #FFF;
+}
+.draft .item-list .item .item-detail image.data-v-ecf86508 {
+  position: absolute;
+  width: 150rpx;
+  height: 150rpx;
+}
+.draft .item-list .item .item-detail .title.data-v-ecf86508 {
+  padding: 25rpx;
+  width: 500rpx;
+  height: 100rpx;
+  margin-left: 170rpx;
+  /* overflow: hidden;
+					text-overflow:ellipsis;
+					white-space: nowrap; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+

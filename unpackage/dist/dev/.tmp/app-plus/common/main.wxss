@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*每个页面公共css */
+/* 	@import url("./colorui/main.css");
+	@import url("./colorui/icon.css"); */
+@font-face {
+  font-family: 'iconfont';  /* project id 1598107 */
+  src: url('https://at.alicdn.com/t/font_1598107_rcmj36xdaoc.eot');
+  src: url('https://at.alicdn.com/t/font_1598107_rcmj36xdaoc.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1598107_rcmj36xdaoc.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1598107_rcmj36xdaoc.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1598107_rcmj36xdaoc.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1598107_rcmj36xdaoc.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-outLogin:before {
+  content: "\E70B";
+}
+.icon-draft:before {
+  content: "\E679";
+}
+.icon-more:before {
+  content: "\E8F1";
+}
+.icon-check:before {
+  content: "\E61D";
+}
+.icon-mine:before {
+  content: "\E62B";
+}
+.icon-success:before {
+  content: "\E69E";
+}
+.icon-set:before {
+  content: "\E603";
+}
+

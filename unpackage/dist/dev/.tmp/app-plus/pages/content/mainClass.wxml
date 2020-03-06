@@ -1,0 +1,1 @@
+<view class="mainClass"><view class="classContent">{{''+classContent+''}}</view></view>

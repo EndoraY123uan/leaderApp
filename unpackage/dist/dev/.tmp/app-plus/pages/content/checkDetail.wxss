@@ -1,0 +1,119 @@
+page.data-v-13bbe5d8 {
+  width: 750px;
+}
+page .checkDetail.data-v-13bbe5d8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  width: 750rpx;
+  background-color: #FFF;
+  /* 新闻详情区 */
+}
+page .checkDetail .news.data-v-13bbe5d8 {
+  background-color: #F1F1FA;
+  /* 新闻标题 */
+  /* 作者信息 */
+}
+page .checkDetail .news .title.data-v-13bbe5d8 {
+  font-size: 40rpx;
+  font-weight: 600px;
+  text-align: center;
+  padding: 20rpx;
+}
+page .checkDetail .news .authorInfo.data-v-13bbe5d8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+page .checkDetail .news .authorInfo image.data-v-13bbe5d8 {
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 30rpx;
+}
+page .checkDetail .news .authorInfo .author.data-v-13bbe5d8 {
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
+page .checkDetail .news .authorInfo .author .time.data-v-13bbe5d8 {
+  opacity: 0.7;
+}
+page .checkDetail .news .newsContent.data-v-13bbe5d8 {
+  margin: 20rpx;
+  text-indent: 80rpx;
+}
+page .checkDetail .comment.data-v-13bbe5d8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10rpx;
+  margin-bottom: 80rpx;
+  background-color: #F1F1FA;
+}
+page .checkDetail .comment .comment-title.data-v-13bbe5d8 {
+  margin-left: 30rpx;
+  font-size: 35rpx;
+}
+page .checkDetail .comment .comment-list.data-v-13bbe5d8 {
+  border-top: 1px solid #CACBCD;
+  /* 					background-color: #0EA391; */
+}
+page .checkDetail .comment .comment-list .commentAuthor.data-v-13bbe5d8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20rpx;
+}
+page .checkDetail .comment .comment-list .commentAuthor image.data-v-13bbe5d8 {
+  position: absolute;
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 10rpx;
+  padding: 20rpx;
+}
+page .checkDetail .comment .comment-list .commentAuthor .author.data-v-13bbe5d8 {
+  margin-left: 120rpx;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+page .checkDetail .comment .comment-list .commentAuthor .author .commentName.data-v-13bbe5d8 {
+  color: #7779CD;
+}
+page .checkDetail .comment .comment-list .commentAuthor .author .commentTime.data-v-13bbe5d8 {
+  opacity: 0.5;
+}
+page .checkDetail .commentInput.data-v-13bbe5d8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20rpx;
+  background-color: #7779CD;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+page .checkDetail .commentInput textarea.data-v-13bbe5d8 {
+  width: 80%;
+  color: #FFF;
+  /* height: 80upx; */
+}
+page .checkDetail .commentInput button.data-v-13bbe5d8 {
+  width: 120rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+}
+

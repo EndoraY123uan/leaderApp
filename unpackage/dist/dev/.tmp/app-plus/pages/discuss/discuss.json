@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "讨论",
+  "titleNView": {
+    "backgroundColor": "#7779CD",
+    "titleText": "讨论",
+    "titleColor": "#FFF"
+  },
+  "usingComponents": {
+    "tab-control": "/pages/components/tabControl-tag",
+    "flixedadd": "/pages/components/dragButton/xiaosikaifa-flixedadd"
+  }
+}

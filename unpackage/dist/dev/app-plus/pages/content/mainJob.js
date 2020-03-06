@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"mainJob .",[1],"jobContent { padding: ",[0,10],"; text-indent: ",[0,40],"; }\n",],undefined,{path:"./pages/content/mainJob.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/content/mainJob.wxml') } }));

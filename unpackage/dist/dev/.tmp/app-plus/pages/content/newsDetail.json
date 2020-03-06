@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "话题详情",
+  "softinputMode": "adjustResize",
+  "titleNView": {
+    "backgroundColor": "#7779CD",
+    "titleText": "话题详情",
+    "titleColor": "#FFF"
+  },
+  "usingComponents": {
+    "popup": "/pages/components/popup"
+  }
+}

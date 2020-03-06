@@ -1,0 +1,27 @@
+
+page.data-v-91367dda{background:#F2F2F2;width: 750rpx;overflow-x: hidden;}
+.qiun-padding.data-v-91367dda{padding:2%; width:96%;}
+.qiun-wrap.data-v-91367dda{display:-webkit-box;display:-webkit-flex;display:flex; -webkit-flex-wrap:wrap; flex-wrap:wrap;}
+.qiun-rows.data-v-91367dda{display:-webkit-box;display:-webkit-flex;display:flex; -webkit-box-orient:horizontal !important; -webkit-box-direction:normal !important; -webkit-flex-direction:row !important; flex-direction:row !important;}
+.qiun-columns.data-v-91367dda{display:-webkit-box;display:-webkit-flex;display:flex; -webkit-box-orient:vertical !important; -webkit-box-direction:normal !important; -webkit-flex-direction:column !important; flex-direction:column !important
+}
+.qiun-common-mt.data-v-91367dda{margin-top:10rpx;}
+.qiun-bg-white.data-v-91367dda{background:#FFFFFF;}
+.qiun-title-bar.data-v-91367dda{width:96%; padding:10rpx 2%; -webkit-flex-wrap:nowrap; flex-wrap:nowrap;}
+.qiun-title-dot-light.data-v-91367dda{border-left: 10rpx solid #0ea391; padding-left: 10rpx; font-size: 32rpx;color: #000000}
+.qiun-charts.data-v-91367dda{width: 750rpx; height:500rpx;background-color: #FFFFFF;}
+.charts.data-v-91367dda{width: 750rpx; height:500rpx;background-color: #FFFFFF;}
+.kaoyanDetail.data-v-91367dda{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.kaoyanAnal.data-v-91367dda{
+	padding: 15rpx;
+	text-indent: 60rpx;
+}
+

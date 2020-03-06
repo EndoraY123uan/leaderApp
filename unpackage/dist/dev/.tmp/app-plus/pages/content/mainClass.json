@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "课程信息",
+  "titleNView": {
+    "backgroundColor": "#7779CD",
+    "titleText": "课程信息",
+    "titleColor": "FFF"
+  },
+  "usingComponents": {}
+}

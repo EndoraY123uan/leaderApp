@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"mainClass .",[1],"classContent { padding-left: ",[0,10],"; padding-right: ",[0,10],"; }\n",],undefined,{path:"./pages/content/mainClass.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/content/mainClass.wxml') } }));

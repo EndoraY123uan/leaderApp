@@ -1,0 +1,1 @@
+<view class="mainJob"><view class="jobContent">{{''+jobContent+''}}</view></view>

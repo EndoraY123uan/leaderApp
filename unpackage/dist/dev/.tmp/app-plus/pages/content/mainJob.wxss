@@ -1,0 +1,5 @@
+.mainJob .jobContent {
+  padding: 10rpx;
+  text-indent: 40rpx;
+}
+

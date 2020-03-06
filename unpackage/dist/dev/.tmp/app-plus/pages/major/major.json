@@ -1,0 +1,22 @@
+{
+  "navigationBarTitleText": "专业",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "backgroundColor": "#7779CD",
+    "searchInput": {
+      "borderRadius": "10px",
+      "placeholder": "请输入专业名称",
+      "placeholderColor": "#000"
+    }
+  },
+  "usingComponents": {
+    "uni-nav-bar": "/node-modules/@dcloudio/uni-ui/lib/uni-nav-bar/uni-nav-bar",
+    "uni-icons": "/node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons",
+    "uni-search-bar": "/node-modules/@dcloudio/uni-ui/lib/uni-search-bar/uni-search-bar",
+    "uni-segmented-control": "/node-modules/@dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control",
+    "uni-collapse": "/node-modules/@dcloudio/uni-ui/lib/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/node-modules/@dcloudio/uni-ui/lib/uni-collapse-item/uni-collapse-item",
+    "uni-list": "/node-modules/@dcloudio/uni-ui/lib/uni-list/uni-list",
+    "uni-list-item": "/node-modules/@dcloudio/uni-ui/lib/uni-list-item/uni-list-item"
+  }
+}
