@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@dcloudio/uni-ui": "^1.1.3",
-    "echarts": "^4.6.0",
+    "echarts": "^5.4.2",
     "mpvue-echarts": "^0.3.2"
   }
 }
